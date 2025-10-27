@@ -1,6 +1,6 @@
 FROM openjdk:11 AS BUILD_IMAGE
-RUN git clone https://github.com/hkhcoder/vprofile-project.git
-RUN cd vprofile-project && git checkout docker 
+RUN git clone https://github.com/devopshydclub/vprofile-project.git
+RUN cd vprofile-project && git checkout docker
 
 FROM tomcat:10-jdk21
 
